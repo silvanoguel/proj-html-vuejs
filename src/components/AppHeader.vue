@@ -117,7 +117,7 @@ export default {
 }
 
 .green-button {
-    background: $btn-primary-color;
+    background: $green-gradient;
     color: white;
     border-radius: 30px;
     border: none;
@@ -126,5 +126,6 @@ export default {
 .search i {
     color: #04DAA4
 }
+
 
 </style>

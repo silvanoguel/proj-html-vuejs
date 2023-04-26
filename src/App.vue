@@ -1,11 +1,18 @@
 <script>
 
 import AppHeader from "./components/AppHeader.vue";
+import AppBanner from "./components/AppBanner.vue";
+import AppCta from "./components/AppCta.vue";
+import AppMissions from "./components/AppMissions.vue";
+
 
 
 export default {
     components: {
         AppHeader,
+        AppBanner,
+        AppCta,
+        AppMissions
     }
 }
 
@@ -14,6 +21,9 @@ export default {
 <template>
 
     <AppHeader />
+    <AppBanner />
+    <AppCta />
+    <AppMissions />
 
 </template>
 
