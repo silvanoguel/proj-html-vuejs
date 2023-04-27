@@ -58,14 +58,6 @@ export default {
                 </div>
             </div>
 
-            <div class="chat-text">
-                <div class="chat-title">
-                    <p>With <span>Live Chat</span> 24/7 support</p>  
-                
-
-                </div>
-            </div>
-
         </div>
 
 

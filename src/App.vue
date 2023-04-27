@@ -6,6 +6,8 @@ import AppCta from "./components/AppCta.vue";
 import AppMissions from "./components/AppMissions.vue";
 import AppProjects from "./components/AppProjects.vue";
 import AppPrices from "./components/AppPrices.vue";
+import AppChat from "./components/AppChat.vue";
+import AppTestimony from "./components/AppTestimony.vue";
 
 
 
@@ -17,6 +19,8 @@ export default {
         AppMissions,
         AppProjects,
         AppPrices,
+        AppChat,
+        AppTestimony,
     }
 }
 
@@ -30,7 +34,9 @@ export default {
     <AppMissions />
     <AppProjects />
     <AppPrices />
-
+    <AppChat />
+    <AppTestimony />
+    
 </template>
 
 <style lang="scss">
