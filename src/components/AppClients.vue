@@ -47,7 +47,7 @@ export default {
 
 
             <!-- Clients -->
-            <div class="row d-flex align-items-center">
+            <div class="row d-flex align-items-center text-center">
                 <div class="col-2">
                     <img src="../assets/img/client-1-2x.png" alt="">
                 </div>

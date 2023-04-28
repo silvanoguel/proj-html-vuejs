@@ -10,6 +10,7 @@ import AppChat from "./components/AppChat.vue";
 import AppTestimony from "./components/AppTestimony.vue";
 import AppBlog from "./components/AppBlog.vue";
 import AppClients from "./components/AppClients.vue";
+import AppFooter from "./components/AppFooter.vue";
 
 
 
@@ -26,7 +27,7 @@ export default {
     AppTestimony,
     AppBlog,
     AppClients,
-  
+    AppFooter, 
 }
 }
 
@@ -44,6 +45,7 @@ export default {
     <AppTestimony />
     <AppBlog />
     <AppClients />
+    <AppFooter />
     
 </template>
 
