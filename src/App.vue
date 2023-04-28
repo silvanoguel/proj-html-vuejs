@@ -8,6 +8,8 @@ import AppProjects from "./components/AppProjects.vue";
 import AppPrices from "./components/AppPrices.vue";
 import AppChat from "./components/AppChat.vue";
 import AppTestimony from "./components/AppTestimony.vue";
+import AppBlog from "./components/AppBlog.vue";
+
 
 
 
@@ -21,6 +23,7 @@ export default {
         AppPrices,
         AppChat,
         AppTestimony,
+        AppBlog,
     }
 }
 
@@ -36,6 +39,7 @@ export default {
     <AppPrices />
     <AppChat />
     <AppTestimony />
+    <AppBlog />
     
 </template>
 

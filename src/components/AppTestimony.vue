@@ -8,11 +8,11 @@ export default {
 <template>
 
     <div class="testimony">
-        <div class="container text-center">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
             <div class="icon">
                 <i class="fa-solid fa-quote-left"></i>
             </div>
-            <div class="testimony-paragraph py-4">
+            <div class="testimony-paragraph py-4 text-center">
                 <p>When it comes to barbequing, there are two main schools of thought for the techniques that you can use. Freshly scrambled eggs with applewood smoked bacon - are amazing!</p>
             </div>
             <div class="testimony-photo pb-2">
@@ -48,6 +48,7 @@ export default {
     background-size: cover;
 }
 
+
 .icon {
     padding-top: 6rem;
     font-size: 3rem;
@@ -63,6 +64,7 @@ export default {
 
 .testimony-paragraph {
     color: white;
+    width: 60%;
 }
 
 .testimony-name {
