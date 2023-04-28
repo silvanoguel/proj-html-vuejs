@@ -5,16 +5,14 @@ export default {
 }
 </script>
 
-
 <template>
 
     <div class="clients">
 
         <div class="container">
-
+            <!-- Work Actions -->
             <div class="work-actions d-flex">
-
-
+                <!-- Input Card -->
                 <div class="input-section text-center py-5 me-3 d-flex flex-column">
                     <div class="input-text">
                         <span>Are you Ready?</span>
@@ -27,7 +25,8 @@ export default {
                         <button class="custom-search-botton" type="submit">SUBMIT</button>  
                     </div>
                 </div>
-
+                <!-- /Input Card -->
+                <!-- Start now card -->
                 <div class="work-section text-center py-5 me-3 d-flex flex-column">
                     <div class="work-text">
                         <span>What Are You Waiting for?</span>
@@ -39,12 +38,9 @@ export default {
                         <button class="black-button">START NOW</button> 
                     </div>
                 </div>
-
-                    
-
+                <!-- /Start now card -->
             </div>
-
-
+            <!-- /Work Actions -->
 
             <!-- Clients -->
             <div class="row d-flex align-items-center text-center">
@@ -68,12 +64,8 @@ export default {
                 </div>
             </div>
             <!-- /Clients -->
-
         </div>
-
     </div>
-
-
 </template>
 
 
@@ -127,8 +119,6 @@ img {
     font-size: 1.8rem;
     color: white;
 }
-
-
 .custom-input {
   position: relative;
   width: 300px;
@@ -167,6 +157,5 @@ img {
     padding: 0.8rem 2rem;
     font-size: 0.7rem;
 }
-
 
 </style>

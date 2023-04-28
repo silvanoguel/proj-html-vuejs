@@ -6,12 +6,10 @@ export default {
 </script>
 
 <template>
-
+    <!-- Missions Section -->
     <div class="missions">
-
         <img class="faded-image"  alt="">
         <img class="woman-image" src="../assets/img/businesswoman-analysing-document-P8WSNMC-1024x820.jpg" alt="">
-
         <div class="mission-text">
             <div class="mission-title">
                 <p>learn more about our <span>missions</span></p>
@@ -25,9 +23,8 @@ export default {
             </div>
             <button class="green-button me-4">VIEW ALL</button>
         </div>
-
     </div>
-
+    <!-- /Missions Section -->
 
 </template>
 

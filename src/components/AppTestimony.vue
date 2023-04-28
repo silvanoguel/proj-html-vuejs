@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-
+    <!-- Testimony section  -->
     <div class="testimony">
         <div class="container d-flex flex-column justify-content-center align-items-center">
             <div class="icon">
@@ -24,13 +24,9 @@ export default {
             <div class="testimoy-role">
                 <p>Client</p>
             </div>
-
         </div>
-
-
     </div>
-
-
+    <!-- Testimony section  -->
 </template>
 
 
@@ -47,7 +43,6 @@ export default {
     background-position: center;
     background-size: cover;
 }
-
 
 .icon {
     padding-top: 6rem;

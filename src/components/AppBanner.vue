@@ -6,8 +6,8 @@ export default {
 </script>
 
 <template>
+    <!-- Banner section -->
     <div class="banner">
-
         <div class="container">
             <div class="banner-text py-5">
               <p class="fw-lighter"><span class="subtitle">17 YEARS OF EXPERIENCE</span></p>
@@ -20,11 +20,8 @@ export default {
               <button class="black-button my-5">READ MORE</button>
               <p>FACEBOOK - INSTAGRAM - YOUTUBE - TWITTER</p>
             </div>
-
         </div>
-      
-
-        <!-- <img src="../assets/img/Group-35-2x.png" alt=""> -->
+        <!-- Banner section -->
     </div>
 </template>
 
@@ -60,7 +57,6 @@ export default {
         }
     }
 }
-
 .small-line {
     background-image: $green-gradient; 
     height: 5px; 

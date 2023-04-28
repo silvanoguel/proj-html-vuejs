@@ -1,5 +1,6 @@
 <script>
 
+
 export default {
  name: "AppHeader",
  data() {
@@ -37,7 +38,7 @@ export default {
       },
     ]
   }
- }
+ },
 }
 
 </script>
@@ -66,12 +67,9 @@ export default {
         <!-- Header bottom -->
         <div class="header-bottom py-3">
             <div class="container d-flex justify-content-between">
-                
                 <div class="header-logo">
                     <img src="../assets/img/cropped-Group-39-2x.png" alt="logo">
                 </div>
-               
-                
                 <nav class="navigation">
                     <ul class="header-nav d-flex">
                         <li v-for="link in links">
@@ -79,14 +77,12 @@ export default {
                         </li>
                     </ul>
                 </nav>
-
                 <div class="header-actions d-flex align-items-center">
                     <button class="green-button me-4">PURCHASE</button>
                     <div class="search">
                         <span><i class="fa-solid fa-magnifying-glass"></i></span>
                     </div>
                 </div>
-
             </div>
         </div>
         <!-- /Header bottom -->
@@ -104,7 +100,6 @@ export default {
     color: white;
     font-size: 0.9rem;
 }
-
 .header-nav {
     list-style-type: none;
     li {
@@ -115,7 +110,6 @@ export default {
         }
     }
 }
-
 .green-button {
     background: $green-gradient;
     color: white;

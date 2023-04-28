@@ -9,6 +9,7 @@ export default {
 
     <div class="projects">
         <div class="container">
+            <!-- Project text -->
             <div class="row">
                 <div class="col-6 pe-5">
                     <div class="lines d-flex my-4">
@@ -27,7 +28,8 @@ export default {
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large languace ocean. Separated they live in Bookmarksgrove. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large languace ocean. Separated they live in Bookmarksgrove.</p>
                 </div>
             </div>
-
+            <!-- Project text -->
+            <!-- Project images -->
             <div class="projects-images">
                 <div class="row g-1">
                     <div class="col-3">
@@ -56,16 +58,14 @@ export default {
                     </div>
                 </div>
             </div>
-
+            <!-- /Project images -->
+            <!-- Button -->
             <div class="projects-button text-center pt-5">
                 <button class="green-button">READ MORE</button>
             </div>
-
+            <!-- /Button -->
         </div>
-
-
     </div>
-
 
 </template>
 

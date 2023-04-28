@@ -1,21 +1,24 @@
 <script>
 
-export default {
+export default{
     name: "AppFooter",
+    props: {
+        linksTitle: String,
+        contactTitle: String,
+        mapTitle: String,
+    }
 }
 </script>
 
 
 <template>
-
     <footer>
-
         <div class="container">
 
             <!-- Footer Top -->
             <div class="footer-top">
                 <div class="row g-4">
-
+                    <!-- Footer logo + text -->
                     <div class="col-3 footer-logo-section">
                         <div class="footer-logo">
                             <img src="../assets/img/cropped-Group-39-2x.png" alt="logo">
@@ -23,12 +26,12 @@ export default {
                         <div class="footer-logo-text pt-3">
                             <p>While the lovely valleyteems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees. While the lovely valller teems with vapour around me.</p>
                         </div>
-
                     </div>
-
+                    <!-- /Footer logo + text -->
+                    <!-- Footer links -->
                     <div class="col-3 footer-links">
                         <div class="footer-links-title">
-                            <span>QUICK LINKS</span>
+                            <span> {{ linksTitle }}</span>
                         </div>
                         <div class="lines d-flex my-2">
                             <hr class="small-line me-1">
@@ -45,11 +48,11 @@ export default {
                           </ul>
                         </div>
                     </div>
-
-
+                    <!-- /Footer links -->
+                    <!-- Footer contacts -->
                     <div class="col-3 contact">
                         <div class="contact-title">
-                            <span>CONTACT</span>
+                            <span> {{ contactTitle }}</span>
                         </div>
                         <div class="lines d-flex my-2">
                             <hr class="small-line me-1">
@@ -62,11 +65,11 @@ export default {
                             <p class="contact-telephone pt-3">+99 (0) 1010 0000 888</p>
                         </div>
                     </div>
-
-
+                    <!-- /Footer contacts -->
+                    <!-- Footer map -->
                     <div class="col-3 map">
                         <div class="map-title">
-                            <span>LOCATION ON MAP</span>
+                            <span>{{ mapTitle }}</span>
                         </div>
                         <div class="lines d-flex my-2">
                             <hr class="small-line me-1">
@@ -76,13 +79,12 @@ export default {
                             <img src="../assets/img/map.png" alt="map-image">
                         </div>
                     </div>
+                    <!-- /Footer map -->
                 </div>
 
             </div>
             <!-- /Footer Top -->
-
         </div>
-
 
         <!-- Footer Bottom -->
         <div class="footer-bottom py-3">
@@ -118,6 +120,8 @@ img {
 footer {
     padding-top: 6rem;
 }
+
+// Footer Top
 .footer-top {
     padding-bottom: 6rem;
 }
@@ -158,6 +162,7 @@ footer {
    line-height: 0.08rem;
 }
 
+// Footer bottom
 .footer-bottom {
     background-color: #3C3C3C;
     color:#888888;

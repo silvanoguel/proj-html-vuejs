@@ -5,32 +5,25 @@ export default {
 }
 </script>
 
-
 <template>
-
+    <!-- Blog Section -->
     <div class="blog">
-
         <div class="container">
-
+            <!-- Blog Title -->
             <div class="blog-title d-flex justify-content-center">
-
                 <p>Latest News & Our <span>Blog</span></p>
-
                 <div class="lines d-flex my-4">
                     <hr class="small-line me-1">
                     <hr class="big-line">
                 </div>
-
             </div>
-
             <div class="lines d-flex my-4">
                 <hr class="small-line me-1">
                 <hr class="big-line">
             </div>
-            
-            
+            <!-- /Blog Title -->
+            <!-- Blog Posts -->
             <div class="posts row g-4">
-
                 <div class="post col-4">
                     <img src="../assets/img/serious-businesswoman-with-documents-talking-on-P9Q6LX6-1024.jpg" alt="">
                     <div class="post-text p-3">
@@ -43,7 +36,6 @@ export default {
                         </div>
                     </div>
                 </div>
-
                 <div class="post col-4">
                     <img src="../assets/img/Businessman-at-the-desk-in-his-office-resting--1024x768.jpg" alt="">
                     <div class="post-text p-3">
@@ -56,7 +48,6 @@ export default {
                         </div>
                     </div>
                 </div>
-
                 <div class="post col-4">
                     <img src="../assets/img/simple-home-office-with-tree-PBXRXYB-large-1024x768.jpg" alt="">
                     <div class="post-text p-3">
@@ -70,22 +61,21 @@ export default {
                     </div>
                 </div>
             </div>
-
+            <!-- /Blog Posts -->
+            <!-- Blog Button -->
             <div class="posts-button text-center">
                 <button class="black-button">VIEW ALL POST</button>
             </div>
-           
-
+            <!-- /Blog Button -->
         </div>
     </div>
-
+    <!-- /Blog Section -->
 
 </template>
 
 
 <style scoped lang="scss">
 @use '../styles/partials/variables' as *;
-
 
 .blog {
     padding-top: 7rem;
@@ -117,6 +107,8 @@ export default {
 span {
     color: $secondary-text-color;
 }
+
+// Posts
 .post {
     position: relative;
 }
@@ -148,6 +140,8 @@ img {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: relative;
 }
+
+// Button
 .posts-button {
     padding-top: 8rem;
 }

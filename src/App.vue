@@ -13,8 +13,6 @@ import AppClients from "./components/AppClients.vue";
 import AppFooter from "./components/AppFooter.vue";
 
 
-
-
 export default {
     components: {
     AppHeader,
@@ -28,7 +26,7 @@ export default {
     AppBlog,
     AppClients,
     AppFooter, 
-}
+},
 }
 
 </script>
@@ -45,7 +43,7 @@ export default {
     <AppTestimony />
     <AppBlog />
     <AppClients />
-    <AppFooter />
+    <AppFooter linksTitle="QUICK LINKS"  contactTitle="CONTACT" mapTitle="LOCATION ON MAP" />
     
 </template>
 

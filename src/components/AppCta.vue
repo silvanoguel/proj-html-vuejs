@@ -6,22 +6,22 @@ export default {
 </script>
 
 <template>
-
     <div class="cta">
-
         <div class="container">
             <div class="row">
+                <!-- Cta text -->
                 <div class="col-5">
                     <div class="cta-title pt-4">
-                       <p>We are Here To Make your <span>Website</span> Look more <span>Elegant</span> And Stylish!</p> 
+                       <p>We are Here To Make your <span>Website</span> Look more <span>Elegant</span> And Stylish!</p>
                     </div>
                     <div class="lines d-flex my-4">
                         <hr class="small-line me-1">
                         <hr class="big-line">
                     </div>
                     <button class="green-button me-4">VIEW ALL</button>
-
                 </div>
+                <!-- /Cta text -->
+                <!-- Cta cards -->
                 <div class="col-7">
                     <div class="container">
                         <div class="row g-3">
@@ -82,18 +82,17 @@ export default {
                         </div>
                     </div>
                 </div>
-
+                <!-- /Cta cards -->
             </div>
         </div>
-
     </div>
-
 </template>
 
 
 <style scoped lang="scss">
 @use '../styles/partials/variables' as *;
 
+// Cta Text
 .cta {
     padding-top: 8rem;
     padding-bottom: 8rem;
@@ -103,6 +102,7 @@ export default {
     font-size: 3rem;
 }
 
+// Cta cards
 .card-text {
     font-size: 0.7rem;
 }
@@ -115,6 +115,7 @@ span {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 2rem;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .card-icon i {
@@ -124,8 +125,8 @@ span {
 }
 
 .small-line {
-    background-image: $green-gradient; 
-    height: 5px; 
+    background-image: $green-gradient;
+    height: 5px;
     border: 0;
     border-radius: 5px;
     width: 3%;
@@ -133,8 +134,8 @@ span {
 }
 
 .big-line {
-    background-image: $green-gradient; 
-    height: 5px; 
+    background-image: $green-gradient;
+    height: 5px;
     border: 0;
     border-radius: 5px;
     width: 10%;
@@ -147,6 +148,16 @@ span {
     border-radius: 30px;
     border: none;
     padding: 0.8rem 2rem;
+}
+
+// Cta card hover
+.ms_card:hover {
+    color: white;
+    background: $green-gradient;
+}
+
+.ms_card:hover .card-icon i {
+    color: white;
 }
 
 </style>

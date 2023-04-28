@@ -6,11 +6,11 @@ export default {
 </script>
 
 <template>
-
+    <!-- Chat Section -->
     <div class="chat">
 
         <div class="container d-flex">
-
+            <!-- Chat Text -->
             <div class="chat-text me-5">
                 <div class="chat-title">
                     <p>With <span>Live Chat 24/7</span> support</p>  
@@ -23,7 +23,8 @@ export default {
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
                 </div>
             </div>
-
+            <!-- /Chat Text -->
+            <!-- Service Cards -->
             <div class="prices-cards d-flex justify-content-between">
                 <div class="price-card d-flex flex-column align-items-center">
                     <div class="card-title mt-3 pt-3">
@@ -73,16 +74,11 @@ export default {
                         <p><span class="check me-2">✓</span>Exceptional Design</p>
                     </div>
                 </div>
-
             </div>
-
-
+            <!-- /Service Cards -->
         </div>
-
-
     </div>
-
-
+    <!-- /Banner section -->
 </template>
 
 
@@ -105,7 +101,6 @@ export default {
     }
 }
 
-
 .small-line {
     background-image: $green-gradient; 
     height: 5px; 
@@ -127,6 +122,7 @@ span {
     color: $secondary-text-color;
 }
 
+// Service Cards
 .prices-cards {
     width: 100%;
 }
@@ -169,9 +165,7 @@ span {
             color: black;
         }
     }
-
 }
-
 .green {
     background: $green-gradient;
 }
