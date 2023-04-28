@@ -33,22 +33,15 @@ export default {
 @use '../styles/partials/variables' as *;
 
 .banner {
-    // position: relative;
-    // width: 100%;
     background-color: #FAFAFA;
-}
-
-img {
-    // position: absolute;
-    // left: 70%;
-    // width: 70%;
-    // height: 70%;
-    // object-fit: cover;
-    // object-position: center;
+    background-image: url(../assets/img/Group-35-2x.png);
+    background-position: right;
+    background-size: 75%;
+    background-repeat: no-repeat;
 }
 
 .banner-text {
-    // position: absolute;
+
     width: 30%;
     .black-button {
         background: $black-gradient;
