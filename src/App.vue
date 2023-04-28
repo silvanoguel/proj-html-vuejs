@@ -9,22 +9,25 @@ import AppPrices from "./components/AppPrices.vue";
 import AppChat from "./components/AppChat.vue";
 import AppTestimony from "./components/AppTestimony.vue";
 import AppBlog from "./components/AppBlog.vue";
+import AppClients from "./components/AppClients.vue";
 
 
 
 
 export default {
     components: {
-        AppHeader,
-        AppBanner,
-        AppCta,
-        AppMissions,
-        AppProjects,
-        AppPrices,
-        AppChat,
-        AppTestimony,
-        AppBlog,
-    }
+    AppHeader,
+    AppBanner,
+    AppCta,
+    AppMissions,
+    AppProjects,
+    AppPrices,
+    AppChat,
+    AppTestimony,
+    AppBlog,
+    AppClients,
+  
+}
 }
 
 </script>
@@ -40,6 +43,7 @@ export default {
     <AppChat />
     <AppTestimony />
     <AppBlog />
+    <AppClients />
     
 </template>
 

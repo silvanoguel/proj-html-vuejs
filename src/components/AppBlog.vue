@@ -89,7 +89,7 @@ export default {
 
 .blog {
     padding-top: 7rem;
-    padding-bottom: 5rem;
+    padding-bottom: 18rem;
 }
 .lines {
     justify-content: center;
